@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.back-img img{
+  margin-top: 0vw;
+}
+.play-contest h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 2vw;
+    
+}
+.prize h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+/*start of table*/
+table {
+    /* border: 1px solid #ccc; */
+    border-collapse: collapse;
+    /* margin: 0;
+    padding: 0; */
+    width: 80%;
+    table-layout: fixed;
+    margin-left: 10vw;
+
+    
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    /* border: 2px solid #282829; */
+    /* border-style: hidden hidden dashed hidden; */
+    padding: .35em;
+    /* border-bottom: 4px dashed grey; */
+  }
+  
+  table th{
+  background-color: #fbad18;
+    color: black;
+    margin-right: 10vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  
+  }
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+    
+   
+    
+  }
+  tr td img{
+      width: 2vw;
+      padding: 0;
+  }
+  tr.dash td{
+    border-bottom: 4px dashed grey;
+    height: 10vh;
+  }
+
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  /*start of points*/
+  #point{
+      padding-top: 2vw;
+      background-color: whitesmoke;
+  }
+  .point-heading h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;    
+    padding-top: 2vw;
+
+  }
+  .point-para p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 16px;    
+    padding-top: 2vw;
+  }
+  /*end of points*/
+  
+  /*start of t&c*/
+.tc-heading h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;    
+    padding-top: 2vw;
+}
+.tc-data ol{
+    text-align:justify;
+    font-family: 'Roboto', sans-serif;
+   
+    font-size: 16px;    
+    padding-top: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2vw;
+}
+
+  /*end of t&c*/
+  .data2{
+    margin-left: 60vw;
+    margin-top: -13vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .data3{
+    margin-left: 80vw;
+    margin-top: -16vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
