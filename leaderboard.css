@@ -146,7 +146,7 @@ table {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 20px;    
-    padding-top: 2vw;
+    padding-top: 0vw;
 
   }
   .point-para p{
@@ -154,7 +154,7 @@ table {
     font-family: 'Roboto', sans-serif;
     
     font-size: 16px;    
-    padding-top: 2vw;
+    padding-top: 1vw;
   }
   /*end of points*/
   
