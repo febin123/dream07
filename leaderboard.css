@@ -141,7 +141,7 @@ table {
       background-color: whitesmoke;
   }
   .point-heading h1{
-    margin-left:37vw;
+    margin-left:48vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 20px;    
@@ -149,7 +149,7 @@ table {
 
   }
   .point-para p{
-    margin-left:15vw;
+    text-align:center;
     font-family: 'Roboto', sans-serif;
     
     font-size: 16px;    
