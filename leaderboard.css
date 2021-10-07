@@ -145,7 +145,7 @@ font-family: 'Roboto', sans-serif;
   
   /*start of points*/
   #point{
-      padding-top: 2vw;
+      padding-top: 0vw;
       background-color: whitesmoke;
       text-align:center;
   }
