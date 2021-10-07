@@ -34,10 +34,9 @@ body{
 
 /*start of table*/
 table {
-    /* border: 1px solid #ccc; */
+   
     border-collapse: collapse;
-    /* margin: 0;
-    padding: 0; */
+    
     width: 80%;
     table-layout: fixed;
     margin-left: 10vw;
@@ -47,10 +46,9 @@ font-family: 'Roboto', sans-serif;
   
   table tr {
     background-color: #f8f8f8;
-    /* border: 2px solid #282829; */
-    /* border-style: hidden hidden dashed hidden; */
+   
     padding: .35em;
-    /* border-bottom: 4px dashed grey; */
+  
       font-family: 'Roboto', sans-serif;
   }
   
