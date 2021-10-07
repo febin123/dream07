@@ -139,6 +139,7 @@ table {
   #point{
       padding-top: 2vw;
       background-color: whitesmoke;
+      text-align:center;
   }
   .point-heading h1{
     text-align:center;
